@@ -1,0 +1,79 @@
+:root {
+  color: $textcolor;
+  font-size: 28px;
+  --step-up-5: 2em;
+  --step-up-4: 1.7511em;
+  --step-up-3: 1.5157em;
+  --step-up-2: 1.3195em;
+  --step-up-1: 1.1487em;
+  --step-down-1: 0.8706em;
+  --step-down-2: 0.7579em;
+  --step-down-3: 0.6599em;
+  --step-down-4: 0.5745em;
+  --step-down-5: 0.5em;
+}
+
+body {
+  background: $almostwhite;
+  font-family: 'Karla', sans-serif;
+}
+
+a:link, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+main, header, footer {
+  max-width: 35rem;
+  margin: 0 auto;
+  padding: 0 1.34rem;
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 5.36em;
+}
+
+
+nav {
+  font-size: 0.8706em;
+}
+
+nav a {
+  display: inline-block;
+  border: solid $lightgray 1px;
+  padding: .5em;
+  margin-top: 1.34rem;
+  margin-right: .67rem;
+  border-radius: .25em;
+  transition: .2s ease-out;
+}
+
+nav a:hover {
+  border-color: #2e2e2e;
+  box-shadow: -.25em .25em 0px 0px #2e2e2e;
+  transform: translateX(.25em) translateY(-.25em);
+}
+
+
+h1 {
+  font-size: 2em;
+  color: $h1color;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-size: 1.5157em;
+  color: $h2color;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 5.36em;
+}

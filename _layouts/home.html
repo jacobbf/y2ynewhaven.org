@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+  <body>
+    {% assign sortedPosts = site.posts | sort: 'order' %}
+    <header>
+      <h1>{{ site.data.settings.title }}</h1>
+      {{ site.data.settings.description }}
+
+      <nav>
+        {% for post in sortedPosts %}
+          <a href="#{{ post.slug }}">{{ post.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+
+    <main>
+
+    {% for post in sortedPosts %}
+    <section id="{{ post.slug }}">
+      <h2>
+        <span>
+          {{ post.title }}
+        </span>
+      </h2>
+
+    {% if post.list-style == "call-and-response" %}
+      <div class="call-and-response">
+    {% else %}
+      <div>
+    {% endif %}
+      {{ post.content }}
+      </div>
+    </section>
+
+    {% endfor %}
+
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+
+</html>
