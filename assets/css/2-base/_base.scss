@@ -1,6 +1,7 @@
 * {
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 :root {
@@ -39,7 +40,8 @@ main, header, footer {
   max-width: 30rem;
   margin: 0 auto;
   padding: 0 1.34rem;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
@@ -59,6 +61,7 @@ nav a, footer a {
   padding: .5em;
   margin-right: .4rem;
   border-radius: .25em;
+  -webkit-transition: .2s ease-out;
   transition: .2s ease-out;
   margin-bottom: .67rem;
 }
@@ -69,15 +72,18 @@ nav a:last-of-type {
 
 nav a:hover, footer a:hover {
   border-color: $black;
-  box-shadow: -.25em .25em 0px 0px $black;
-  transform: translateX(.25em) translateY(-.25em);
+  -webkit-box-shadow: -.25em .25em 0px 0px $black;
+          box-shadow: -.25em .25em 0px 0px $black;
+  -webkit-transform: translateX(.25em) translateY(-.25em);
+          transform: translateX(.25em) translateY(-.25em);
 }
 
 
 h1 {
   font-size: 2em;
   color: $almostwhite;
-  box-shadow: 0 0 22px 28px $blue;
+  -webkit-box-shadow: 0 0 22px 28px $blue;
+          box-shadow: 0 0 22px 28px $blue;
   line-height: $sm-line-height;
   background: $blue;
   font-weight: normal;
@@ -106,7 +112,8 @@ h2 > span:after {
   right: 0;
   bottom: 0;
   background: #fff468;
-  box-shadow: 0px 0px 20px 15px #fff468;
+  -webkit-box-shadow: 0px 0px 20px 15px #fff468;
+          box-shadow: 0px 0px 20px 15px #fff468;
   border-radius: 25%;
 }
 
@@ -143,17 +150,35 @@ footer {
   }
 
   header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     width: 100%;
   }
 }
