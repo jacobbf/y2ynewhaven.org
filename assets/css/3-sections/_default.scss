@@ -1,16 +1,19 @@
-
-ul,ol {
+ul,
+ol {
   list-style: none;
   padding: 0;
 }
 
 li {
-  margin-bottom: .67em;
+  margin-bottom: 0.67rem;
 }
 
-.call-and-response ul>li:nth-of-type(2n-1) {font-weight: bold;font-size: 1.1487em;color: $lightpurple;}
+.call-and-response ul > li:nth-of-type(2n-1) {
+  font-weight: bold;
+  font-size: 1.3195em;
+  color: $midgray;
+}
 
-.call-and-response ul>li:nth-of-type(2n) {
-  margin-bottom: 1.34em;
-
+.call-and-response ul > li:nth-of-type(2n) {
+  margin-bottom: 2.01rem;
 }

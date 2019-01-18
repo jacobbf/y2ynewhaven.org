@@ -5,7 +5,7 @@ list-style: call-and-response
 ---
 
 * What is Youth Continuum?
-- Youth Continuum is an oranization that operates a broad range of services for children and youth, including case management, transitional housing, and long term housing resources for youth.
+- Youth Continuum is an organization that operates a broad range of services for children and youth, including case management, transitional housing, and long term housing resources for youth.
 * Do they do a good job?
 - Youth Continuum is one of the most well respected organizations serving children and young people in Connecticut. They are certified by the Council on Accreditation, the international gold standard for non-profit quality assurance.
 * How does Youth Continuum connect with the community?
