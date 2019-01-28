@@ -1,3 +1,31 @@
 <footer>
   <a href="#top">&uarr; Go to top</a>
 </footer>
+<script src="{{ site.baseurl }}/assets/js/sticky.min.js" charset="utf-8"></script>
+<script src="{{ site.baseurl }}/assets/js/isinviewport.js" charset="utf-8"></script>
+<script type="text/javascript">
+  window.onscroll = function() {
+  const header = document.querySelector('header');
+    if (isInViewport(header)) {
+      if (header.classList)
+        header.classList.add('atTop');
+      else
+        header.className += ' ' + 'atTop';
+
+      if (header.classList)
+        header.classList.remove('scrolledDown');
+      else
+        header.className += ' ' + 'scrolledDown';
+    } else {
+      if (header.classList)
+        header.classList.add('scrolledDown');
+      else
+        header.className += ' ' + 'scrolledDown';
+
+      if (header.classList)
+        header.classList.remove('atTop');
+      else
+        header.className += ' ' + 'atTop';
+    };
+  };
+</script>
