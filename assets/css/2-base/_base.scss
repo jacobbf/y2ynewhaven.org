@@ -36,6 +36,15 @@ a:hover, a:active {
   text-decoration: none;
 }
 
+p a:link, p a:visited {
+  opacity: .5;
+  transition: .2s ease-out;
+}
+
+p a:hover, p:active {
+  opacity: 1;
+}
+
 main, header, footer {
   max-width: 30rem;
   margin: 0 auto;
