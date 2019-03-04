@@ -9,7 +9,7 @@ You can also find more about our work in Cambridge, MA at our [Harvard Square we
 
 More information about Youth Continuum and their 924 Grand location can be found on [their site](http://www.youthcontinuum.org/mission-and-philosophy.html).
 
-Information regarding our recent meetings
-[Y2Y New Haven's Advisory Board]({{ site.baseurl }}/assets/Y2Y-New-Haven-AB-2.6.19.pdf)<br>
-[Building Comittee Information]({{ site.baseurl }}/assets/Y2Y-New-Haven-Site-and-Building-Committee.pdf)<br>
-[Flier]({{ site.baseurl }}/assets/Y2Y-Outreach-Flyer.pdf)<br>
+Information regarding our recent meetings<br>
+[Y2Y New Haven's Advisory Board]({{ site.baseurl }}/assets/documents/Y2Y-New-Haven-AB-2.6.19.pdf)<br>
+[Building Comittee Information]({{ site.baseurl }}/assets/documents/Y2Y-New-Haven-Site-and-Building-Committee.pdf)<br>
+[Flier]({{ site.baseurl }}/assets/documents/Y2Y-Outreach-Flyer.pdf)<br>
