@@ -18,3 +18,14 @@ li {
 .call-and-response ul > li:nth-of-type(2n) {
   margin-bottom: 2.01rem;
 }
+
+#logo-splash {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo-splash img {
+  max-width: 50%;
+  vertical-align: middle;
+}
